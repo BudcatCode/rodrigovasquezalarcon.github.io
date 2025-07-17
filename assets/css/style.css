@@ -11,7 +11,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  filter:drop-shadow(5px 5px 10px rgb(5, 193, 231));
 }
 
 .boton a {
@@ -27,7 +26,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  filter:drop-shadow(5px 5px 10px rgb(5, 193, 231));
+
+}
+
+.fondo {
+  background-color: rgb(14, 17, 44);
 }
 
 
@@ -36,14 +39,14 @@ body {
   text-decoration: none;
   color: rgb(13 202 240);
   font-weight: 400;
-  filter:drop-shadow(5px 5px 10px rgb(5, 193, 231));
+
 }
 /* Contacto */
 
 #Contacto form label {
   font-weight: 700;
   color: #373a3c;
-  filter:drop-shadow(5px 5px 10px rgb(5, 193, 231));
+
 }
 
 @media (max-width: 768px) {
